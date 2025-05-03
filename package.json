@@ -1,0 +1,24 @@
+{
+  "name": "audit-fix-for-yarn",
+  "version": "1.0.0",
+  "description": "A simple CLI tool that applies npm audit fix to projects using yarn.lock by temporarily converting dependencies to package-lock.json, running the fix, and syncing changes back to yarn.lock.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiocaldeirao/yarn_audit_fix.git"
+  },
+  "bin": {
+    "audit-fix-for-yarn": "./index.js"
+  },
+  "keywords": [
+    "yarn",
+    "audit",
+    "fix"
+  ],
+  "author": "claudiocaldeirao@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiocaldeirao/yarn_audit_fix/issues"
+  },
+  "homepage": "https://github.com/claudiocaldeirao/yarn_audit_fix#readme"
+}
